@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color: rgb(71, 196, 183);
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.caja1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 0px;
+    flex-wrap: wrap;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container img {
+    padding: 5px;
+    height: 60px;
+}
+
+.logo-container h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li{
+    padding: 30px;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.caja2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.caja2 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.inf1 {
+    display: inline-block;
+    padding: 10px 10px 0;
+}
+
+.paw{
+    height: 50px;
+}
+
+.inf2 {
+    display: inline-block;
+    padding: 10px 10px 0;
+}
+
+.pin{
+    height: 50px;
+}
+
+.btninf1{
+    background-color: blueviolet;
+    border: solid black 3px;
+    padding: 0 20px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.infcj{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(195, 193, 193);
+    width: 70%;
+    height: 140px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.picture {
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.inf3 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 10px;
+    padding: 0px 0px 25px;
+}
+
+.inf3 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inf3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.button{
+    padding: 20px;
+    margin-left: auto;
+}
+
+.button p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.btninf2{
+    background-color: rgb(50, 161, 150);
+    border: solid black 3px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
